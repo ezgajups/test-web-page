@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-\Illuminate\Support\Facades\Auth::routes();
+\Illuminate\Support\Facades\Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
