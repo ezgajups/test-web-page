@@ -1,0 +1,3 @@
+[submodule "packages/ezgajups/Calculator"]
+	path = packages/ezgajups/Calculator
+	url = https://github.com/ezgajups/Calculator
